@@ -22,3 +22,18 @@ left as they appear in the book so the code matches the printed text.
 Some of those old dependencies have known vulnerabilities; the corresponding
 Dependabot alerts have been dismissed deliberately. This code is meant for
 reading alongside the book, not for production use.
+
+<!-- ARCH-DIAGRAM:START -->
+
+## Architecture
+
+> Auto-generated architecture diagram. See [`docs/context-map.md`](docs/context-map.md) for the full context map (core application, containers/cloud, and database connections).
+
+```mermaid
+flowchart TD
+  User([User / Client])
+  App["Making-Java-Groovy"]
+  User --> App
+```
+
+<!-- ARCH-DIAGRAM:END -->
